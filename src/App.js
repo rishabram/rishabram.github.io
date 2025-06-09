@@ -1,17 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 function App() {
-  return (
-    <div >
-      My Portfolio is Working!
+    return (
+        <div className="overflow-x-hidden">
+            <Header />
+            <Hero />
+            <About/>
 
-      <Header/>
-
-    </div>
-  );
+        </div>
+    );
 }
-//d
+
 export default App;
