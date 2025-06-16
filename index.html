@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge" >
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishab Ramalingam - Software Developer</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -19,647 +20,457 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  
-  <script>
-  var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-  if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-  function mischandler(){
-  return false;
-  }
-  function mousehandler(e){
-  var myevent = (isNS) ? e : event;
-  var eventbutton = (isNS) ? myevent.which : myevent.button;
-  if((eventbutton==2)||(eventbutton==3)) return false;
-  }
-  document.oncontextmenu = mischandler;
-  document.onmousedown = mousehandler;
-  document.onmouseup = mousehandler;
-  </script>
 
+  <script>
+    var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+    if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+    function mischandler(){
+      return false;
+    }
+    function mousehandler(e){
+      var myevent = (isNS) ? e : event;
+      var eventbutton = (isNS) ? myevent.which : myevent.button;
+      if((eventbutton==2)||(eventbutton==3)) return false;
+    }
+    document.oncontextmenu = mischandler;
+    document.onmousedown = mousehandler;
+    document.onmouseup = mousehandler;
+  </script>
 </head>
 
 <body>
+<button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
-  <!--  Header  -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <p><a href="index.html">
-          <img src="assets/rishabr.jpeg" alt="Rishab Ramalingam" class="img-fluid rounded-circle">
-          </a></p>
-          
-        <center><h1 class="text-light"><a href="index.html">Rishab Ramalingam</a></h1></center>
-        <div class="social-links mt-3 text-center">
-          <a href="https://www.linkedin.com/in/rishab-ramalingam-90282b16b/"   target = "_blank" title="LinkedIn @VivaanRajesh"  class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/rishabram"   target = "_blank"  title="GitHub @vivaan2006"  class="github"><i class="bx bxl-github"></i></a>
-        </div>
+<!-- Header -->
+<header id="header">
+  <div class="d-flex flex-column">
+    <div class="profile">
+      <a href="index.html">
+        <img src="assets/rishabr.jpeg" alt="Rishab Ramalingam" class="img-fluid rounded-circle">
+      </a>
+      <center><h1 class="text-light"><a href="index.html">Rishab Ramalingam</a></h1></center>
+      <div class="social-links mt-3 text-center">
+        <a href="https://www.linkedin.com/in/rishab-ramalingam-90282b16b/" target="_blank" title="LinkedIn" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/rishabram" target="_blank" title="GitHub" class="github"><i class="bx bxl-github"></i></a>
       </div>
-
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file"></i> <span>Resume</span></a></li>
-          <li><a href="#services"><i class="bx bx-code-block"></i> Projects</a></li>
-          <li><a href="#portfolio"><i class="bx bx-award"></i> Certificates</a></li>
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-          
-        </ul>
-      </nav><!-- .nav-menu -->
-      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
     </div>
-  </header><!-- End Header -->
 
-  <!-- Hero Section-->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <center><h1>Vivaan Rajesh</h1></center>
-      <center><p>I am a <span class="typed" data-typed-items="First Year Computer Science Major at Georgia Institute of Technology"></span></p></center>
-    </div>
-  </section><!-- End Hero -->
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume"><i class="bx bx-file"></i> <span>Resume</span></a></li>
+        <li><a href="#projects"><i class="bx bx-code-block"></i> Projects</a></li>
+        <li><a href="#learning"><i class="bx bx-brain"></i> Learning Journey</a></li>
+        <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+  </div>
+</header>
 
-  <main id="main">
+<!-- Hero Section -->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <div class="hero-container" data-aos="fade-in">
+    <center><h1>Rishab Ramalingam</h1></center>
+    <center><p>I am a <span class="typed" data-typed-items="Computer Science Student, Full-stack Developer, JavaScript Specialist"></span></p></center>
+  </div>
+</section>
 
-<!--About Section-->
-<section id="about" class="about">
-  <div class="container">
-    <div class="section-title">
-      <h2>About</h2>
-      <div class="">
+<main id="main">
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About</h2>
         <div class="card-content">
-          <div class="row">
-            <div class="col s12 m10">
-              
-            </div>
-          </div>
-          <p>Hey there! I'm Vivaan Rajesh, a freshman at Georgia Tech majoring in Computer Science. I'm passionate about technology and constantly looking for ways to improve my programming skills through projects. My ultimate goal is to become a successful software engineer, and I'm actively expanding my knowledge to stay ahead of the curve.</p>
-          <br><h2>Beyond the Code</h2>
-          <p>While computer science is my main focus, I also have a strong interest in finance. I've been actively investing in the stock market since I was 12 (my first pick? $DAL!), and I enjoy the challenge of analyzing markets and making informed decisions.</p>
-          <br><h2>This Website</h2>
-          <p>This site is a place where you can learn more about me, my projects, and my interests. I'll be showcasing both my technical and financial endeavors here. Feel free to browse around and reach out using the contact form below if you have any questions or want to collaborate on some interesting projects!</p>
-          
+          <p>Hello! I'm Rishab Ramalingam, a Computer Science student at the University of Utah passionate about building impactful software solutions. I specialize in full-stack JavaScript development and constantly push my skills through daily coding challenges and projects.</p>
+
+          <br><h2>Current Focus</h2>
+          <p>I'm currently interning at Ascent in Orem, Utah, where I work with React, TypeScript, Node.js, and MongoDB to develop enterprise solutions. I'm mastering modern JavaScript ecosystem tools and patterns.</p>
+
+          <br><h2>Beyond Coding</h2>
+          <p>I'm deeply committed to sustainability initiatives, having co-founded Compost Utah. I also contribute to campus life as a Housing Ambassador at the University of Utah.</p>
+
           <br>
-          <br>   
-          <b>    Familiar Programming Languages:</b> Java • Python • JavaScript • HTML • CSS • Swift • C#</li>
-          <br>
-          <br>
-          <br>
-          <b>     Familiar Databases: </b>   MySQL • Sqlite</li>
-          <br>
-          <br>
-          <br>
-          <b>     Familiar Libraries:   </b> NumPy • Pandas • PyQt5 • Swing • PyTorch • React.js • Node.js</li>
+          <b>Technical Skills:</b> JavaScript • TypeScript • React • Node.js • MongoDB • Python • HTML/CSS
+          <br><br>
+          <b>Learning Daily:</b> Advanced TypeScript • Microservices • Performance Optimization • Cloud Architecture
         </div>
       </div>
     </div>
-  </div>
-</section><!-- End About Section -->
+  </section>
 
-    
-
-    <!--  Skills Section  -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Skill Levels</h2>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">Java <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Data Structures and Algorithms <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MySQL and Sqlite<i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">Python<i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Web Development <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Non-Technical Skills: Communication, Collaboration and Leadership<i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
+  <!-- Skills Section -->
+  <section id="skills" class="skills section-bg">
+    <div class="container">
+      <div class="section-title">
+        <h2>Technical Proficiencies</h2>
       </div>
-    </section><!-- End Skills Section -->
-
-    <!--  Resume Section  -->
-    
-    <section id="resume" class="resume">
-      <div class="container">
-        
-        <div class="section-title">
-          <h2>Experience</h2>
-          
-<div class="text-center">
-  <form action="https://drive.google.com/file/d/1txY4CzoihFF73ZYTQ9nocj6TbVLPcGbO/view?usp=sharing" target = "_blank"   >
-      <input style="color:rgb(255, 0, 0); font-size:20px;" type="submit" value="View My Current Resume"/>
-  </form>
-  
-  </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12" data-aos="fade-up">
-              <div class="section-title">
-              
-                <!--###############-->
-              
-                <div class="card">
-                  <div class="card-content">
-                    <div class="row">
-                      
-                      <!-- <div class="col s12 m10"> -->
-                      <div class="col s12 m10">
-                        
-                      </div>
-                    </div>
-       
-                    <ul>
-                      <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up">
-                        <h4 style="text-align:left;"><a href="https://www.silverlineadvisory.org/" target = "_blank"  style="color:#00380d"><b>Silverline Educational Advisory Services</b></a><br> </h4>
-                        <h5 style="text-align:left;">Chief Technology Officer</h5>
-                        <p style="text-align:left;color:rgb(255, 0, 0)"><em>July 2022 – December 2023 </em></p>
-                        <ul style="text-align:left;">
-                          <li> Led a team of 15 to successfully design and launch a website for a 501(c)(3) organization, improving access for over 5,000
-                            students by building a scalable tutoring platform.</li>
-                            <li>Utilized React and advanced web animation techniques to enhance UI, resulting in a 30% increase in user engagement.</li>
-                              <li> Boosted SEO performance with effective metadata strategies, improving search rankings by over 40%.</li>
-
-                        </ul>
-                      </div>
-                    </ul>
-                  </div>
-                  
-                <!--###############-->
-                
-                  <div class="card">
-                    <div class="card-content">
-                      <div class="row">
-                        
-                        <!-- <div class="col s12 m10"> -->
-                        <div class="col s12 m10">
-                          
-                        </div>
-                      </div>
-         
-                      <ul>
-                        <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                          <h4 style="text-align:left;"><a href="https://github.com/utahplt/static-python-perf"  target = "_blank"  style="color:#00410f"><b>Utah Programming Language Team</b></a><br> </h4>
-                          <h5 style="text-align:left;">Research Assistant</h5>
-                          <p style="text-align:left;color:rgb(255, 0, 0)"><em>December 2022 - Present </em></p>
-                          <ul style="text-align:left;">
-                            <li>Collaborated closely with Professor Ben Greenman to conduct a thorough analysis of Instagram's Static Python
-                              implementation, uncovering areas for improvement, finding optimizations within the framework, and publishing results.</li>
-                              <li>Analyzed Static Python by gradually adding types to over 100 benchmarks, measuring performance, and reporting results.</li>                                                       
-                          </ul>
-                        </div>
-                        
-                      </ul>
-                    </div>
-                <!--###############-->
-                    <div class="card">
-                      <div class="card-content">
-                        <div class="row">
-                          
-                          <!-- <div class="col s12 m10"> -->
-                          <div class="col s12 m10">
-                            
-                          </div>
-                        </div>
-           
-                        <ul>
-                          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <h4 style="text-align:left;"><a href="https://www.cs.cornell.edu/research"  target = "_blank"  style="color:#00360d"><b>Cornell University</b></a><br> </h4>
-                            <h5 style="text-align:left;">Research Assistant</h5>
-                            <p style="text-align:left;color:rgb(255, 0, 0)"><em>March 2023 - Present</em></p>
-                            <ul style="text-align:left;">
-                              <li>Collaborating with Prof. Alexandra Silva and AWS Applied Science Intern Wojciech Różowski on formalizing infinite
-                                streams using co-induction, leveraging Microsoft Lean 4 to expand capabilities in handling complex data streams.</li>
-                                <li>Implement new procedures for analyzing infinite data structures, expanding the capabilities of working with data streams.</li>    
-                            </ul>
-                          </div>
-                          
-                        </ul>
-                      </div>
-                      
-                                     <!--###############-->
-
-              
-              </div>
+      <div class="row skills-content">
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="progress">
+            <span class="skill">JavaScript/TypeScript <i class="val">95%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
+          <div class="progress">
+            <span class="skill">React Ecosystem <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Node.js & Express <i class="val">85%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="progress">
+            <span class="skill">MongoDB & Databases <i class="val">85%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Python & Data Analysis <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">System Design <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-    </section>
-    <!-- End Resume Section -->
+    </div>
+  </section>
 
-
-    <section id="Education" class="Education section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Education</h2>
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+    <div class="container">
+      <div class="section-title">
+        <h2>Experience</h2>
+        <div class="text-center">
+          <form action="https://drive.google.com/file/d/1SSMWpPng0i0emh0ntNaxAelvigkHSo8_/view?usp=sharing" target="_blank">
+            <input style="color:rgb(255, 0, 0); font-size:20px;" type="submit" value="View My Resume"/>
+          </form>
         </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-12" data-aos="fade-up">
-
-            
-                      
-                                        <!--###############-->
-
-                      
-                        <div class="card">
-                          <div class="card-content">
-                            <div class="row">
-                              
-                              <!-- <div class="col s12 m10"> -->
-                              <div class="col s12 m10">
-                                
-                              </div>
-                            </div>
-               
-                            <ul>
-                              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up">
-                                <h4 style="text-align:left;"><a href="https://hhs.canyonsdistrict.org/"  target = "_blank"  style="color:#00380d"><b>Hillcrest High School</b></a><br> </h4>
-                                <h5 style="text-align:left;">IB Diploma</h5>
-                                <p style="text-align:left;color:rgb(255, 0, 0)"><em>2020 - 2024 </em></p>
-                                <ul style="text-align:left;">
-                                  <li>3.99 UW GPA, 4.85 WGPA</li>
-                                  
-                                </ul>
-                              </div>
-                              
-                            </ul>
-                          </div>
-                          
-                                          <!--###############-->
-
-                        
-                          <div class="card">
-                            <div class="card-content">
-                              <div class="row">
-                                
-                                <!-- <div class="col s12 m10"> -->
-                                <div class="col s12 m10">
-                                  
-                                </div>
-                              </div>
-                 
-                              <ul>
-                                <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-                                  <h4 style="text-align:left;"> <a href="https://www.utah.edu/"  target = "_blank" style="color:#00410f"><b>Georgia Institute of Technology</b></a><br> </h4>
-                                  <h5 style="text-align:left;">Computer Science</h5>
-                                  <p style="text-align:left;color:rgb(255, 0, 0)"><em>2024 - 2027</em></p>
-                                  <ul style="text-align:left;">   
-                                    <p><b>Relevant Organizations:</b> HyTech Racing, Trading Club, Website Development Club</p>      
-                                    <p> Relevant Course Work: </p>                                            
-                                    <li>Math 1554: Linear Algebra</li>
-                                    <li>CS 1301: Intro to Computing</li>
-                                    <li>CS 1331: Object Oriented Programming</li>
-                                    <li>CS 1332: Data Structures and Algorithms</li>
-                                    <li>CS 2050: Discrete Mathematics</li>
-                                    <li>CS 2340: Objects and Design</li>
-                                  </ul>
-                                </div>
-                                
-                              </ul>
-                            </div>
-                                      <!--###############-->
-
-                      
-                                             <!--###############-->
-
-                      
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </section>
-            </section>
-            <!-- End Education Section -->
-
-
-<!DOCTYPE html>
-    <!--  Services Section  -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Projects</h2>
-         
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="icofont-business-man"></i></div>
-            <h4 class="title"><a href="https://github.com/vivaan2006/Vivaan-Website"  target = "_blank"   >Portfolio Website</a></h4>
-            <p class="description">
-              Welcome to the website you're currently exploring! Here, you'll discover a curated collection showcasing my past projects, invaluable experiences, educational background, and intriguing insights into my personal journey.
-</a> </p>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="icofont-music"></i></div>
-            <h4 class="title"><a href="https://github.com/utahplt/static-python-perf"  target = "_blank"   >Stock Predictor</a></h4>
-            <p class="description">- <a href="https://github.com/utahplt/static-python-perf"  target = "_blank"   >This project </a> 
-              consists of a machine learning model using historical S&P 500 data to forecast stock trends and price movements. Combined data visualization, feature engineering, and advanced modeling to deliver actionable market insights, with key achievements in data preprocessing, model development, backtesting, and prediction accuracy.
-              </a> </p></p>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="icofont-unique-idea"></i></div>
-            <h4 class="title"><a href="https://github.com/Adharsh-Ramakrishnan/Spirit-Quest-Unleash-Your-School-Spirit"  target = "_blank"  >Spirit Quest</a></h4>
-            <p class="description"> This project is an application that aims to improve school spirit activity by incentivizing participation to build a stronger 
-              school community.
-              </a> </p> </p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="icofont-chart-line"></i></div>
-            <h4 class="title"><a href="https://github.com/vivaan2006/Tetris"  target = "_blank"   >Tetris: Retro Rush</a></h4>
-            <p class="description"><a href="link"  target = "_blank" > </a>
-              This project consists of a game I developed using python. Similar to Tetris, this game incorporates the PyQt5 library to provide
-              the user with a fun gaming experience!
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="icofont-notebook"></i></div>
-            <h4 class="title"><a href="https://github.com/vivaan2006/Educate_Website"  target = "_blank"   > Educate!</a></h4>
-            <p class="description"><a href="https://educateglobal.netlify.app/"  target = "_blank"   >This link</a> consists of the Educate website.
-              Educate! is an application that aims to bridge the gap between international education. The product consists of a wide array of educational
-              articles, raising awarness of the lack of equitable educational resources in some nations, and this product implements a book donation system to give
-              everyone an opportunity for a good education.
-  
-</a></p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="icofont-ui-weather"></i></div>
-            <h4 class="title"><a href="https://github.com/vivaan2006/FinalProject_1420"  target = "_blank"   >Java Space Tower Defense</a></h4>
-            <p class="description"><a href="https://github.com/vivaan2006/FinalProject_1420"  target = "_blank"   >This code</a> consists of a unique version of Ballons Tower Defense
-              I developed using Java Swing. This product incorporates many advanced concepts in Java which results in an application
-              that allows users to deploy towers to destroy spaceships that spawn at random times and random locations. After a certain 
-              number of space ships pass the towers, the user's score changes, and once it reaches 0 the game ends. Feel Free to download the program 
-              and try it out!
-          </div>
-      <!-- <div> <h1> Practice Problems and code</h1></div> -->
-         
-          <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon"><i class="icofont-file-text"></i></div>
-            <h4 class="title"><a href="https://github.com/vivaan2006/FinalProject_1420"  target = "_blank"   >anme</a></h4>
-            <p class="description"><a href="https://github.com/vivaan2006/FinalProject_1420"  target = "_blank"   >name</a>des
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="700">
-            <div class="icon"><i class="icofont-file-pdf"></i></div>
-            <h4 class="title"><a href="https://github.com/vivaan2006/Data_Structures_And_Algorithms"  target = "_blank"   >name</a></h4>
-            <p class="description"><a href="https://github.com/vivaan2006/Data_Structures_And_Algorithms"  target = "_blank"   >des
-</a></p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="800">
-            <div class="icon"><i class="icofont-ui-social-link"></i></div>
-            <h4 class="title"><a href="https://github.com/utahplt/static-python-perf"  target = "_blank"   >name</a></h4>
-            <p class="description"><a href="https://github.com/utahplt/static-python-perf"  target = "_blank"   >Repository</a> des
-</a></p>
-          </div>
-      -->
-      
-      
-        </div>
-
       </div>
-    </section><!-- End Services Section -->
-    
-    <!--  Certifications Section  -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Certification</h2>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.png" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up">
+          <!-- Ascent Internship -->
+          <div class="card">
+            <div class="card-content">
+              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up">
+                <h4 style="text-align:left;">
+                  <a href="https://www.ascent.com/" target="_blank" style="color:#00380d">
+                    <b>Ascent</b>
+                  </a>
+                </h4>
+                <h5 style="text-align:left;">Software Engineering Intern</h5>
+                <p style="text-align:left;color:rgb(255, 0, 0)">
+                  <em>Orem, Utah | Sept 2024 - Present</em>
+                </p>
+                <ul style="text-align:left;">
+                  <li>Develop full-stack applications using React, TypeScript, Node.js, and MongoDB</li>
+                  <li>Implement worker processes for background tasks using BullMQ and Redis</li>
+                  <li>Optimize MongoDB queries and indexing strategies, improving performance by 35%</li>
+                  <li>Build RESTful APIs with Express.js to integrate frontend with backend services</li>
+                  <li>Collaborate in Agile teams using CI/CD pipelines to deploy microservices to AWS</li>
+                </ul>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+          <!-- University of Utah -->
+          <div class="card">
+            <div class="card-content">
+              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <h4 style="text-align:left;">
+                  <a href="https://housing.utah.edu/" target="_blank" style="color:#00410f">
+                    <b>University of Utah - Housing & Residential Education</b>
+                  </a>
+                </h4>
+                <h5 style="text-align:left;">Developer and Housing Ambassador</h5>
+                <p style="text-align:left;color:rgb(255, 0, 0)">
+                  <em>Salt Lake City, UT | July 2024 - Aug 2024</em>
+                </p>
+                <ul style="text-align:left;">
+                  <li>Developed automated email response system using Python and web scraping</li>
+                  <li>Reduced repetitive inquiries by 40% and improved response time by 60%</li>
+                  <li>Built RESTful APIs to integrate FAQ data from HRE's website</li>
+                </ul>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.png" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.png" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.png" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.png" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+          <!-- Compost Utah -->
+          <div class="card">
+            <div class="card-content">
+              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="200">
+                <h4 style="text-align:left;">
+                  <a href="#" style="color:#00360d">
+                    <b>Compost Utah</b>
+                  </a>
+                </h4>
+                <h5 style="text-align:left;">Cofounder and Developer</h5>
+                <p style="text-align:left;color:rgb(255, 0, 0)">
+                  <em>Midvale, UT | Jun 2022 - Aug 2023</em>
+                </p>
+                <ul style="text-align:left;">
+                  <li>Founded 501(c)(3) non-profit promoting composting in Wasatch Front communities</li>
+                  <li>Developed dynamic website using HTML, CSS, and JavaScript for event management</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-    </section><!-- End Portfolio Section -->
+    </div>
+  </section>
 
+  <!-- Education Section -->
+  <section id="Education" class="Education section-bg">
+    <div class="container">
+      <div class="section-title">
+        <h2>Education</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="card">
+            <div class="card-content">
+              <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up">
+                <h4 style="text-align:left;">
+                  <a href="https://www.utah.edu/" target="_blank" style="color:#00380d">
+                    <b>University of Utah</b>
+                  </a>
+                </h4>
+                <h5 style="text-align:left;">Honors Bachelor of Science in Computer Science</h5>
+                <p style="text-align:left;color:rgb(255, 0, 0)">
+                  <em>2023 - 2027</em>
+                </p>
+                <p style="text-align:left;"><b>Relevant Coursework:</b></p>
+                <ul style="text-align:left;">
+                  <li>Data Structures & Algorithms</li>
+                  <li>Web Development</li>
+                  <li>Database Systems</li>
+                  <li>Software Engineering</li>
+                  <li>Network Security</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-title">
+        <h2>Featured Projects</h2>
+      </div>
 
-    <!--  Contact Section  -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Feel Free to contact me anytime!
-</p>
+      <div class="row">
+        <!-- FactFlow -->
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+          <div class="icon"><i class="icofont-newspaper"></i></div>
+          <h4 class="title"><a href="https://github.com/rishabram/FakeNews" target="_blank">FactFlow</a></h4>
+          <p class="description">
+            Machine learning pipeline using TF-IDF and PassiveAggressiveClassifier with Chrome extension integration
+          </p>
         </div>
 
-        <div class="row" data-aos="fade-in">
+        <!-- My2KAssistant -->
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon"><i class="icofont-sports-alt"></i></div>
+          <h4 class="title"><a href="https://github.com/rishabram/fantasy-basketball-assistant" target="_blank">My2KAssistant</a></h4>
+          <p class="description">
+            Full-stack sports analytics app with NBA API integration, SQLite database, and React interface
+          </p>
+        </div>
 
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>Lehi, Utah, United States</p>
-              </div>
+        <!-- Spotify Analysis -->
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon"><i class="icofont-music"></i></div>
+          <h4 class="title"><a href="https://github.com/rishabram/Spotify-Analysis" target="_blank">Spotify Analysis</a></h4>
+          <p class="description">
+            Data analysis pipeline in R with TidyVerse for Spotify track feature comparison
+          </p>
+        </div>
 
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p><a href="mailto:vivaan.rajesh2006@gmail.com">vivaan.rajesh2006@gmail.com</a></p>
-              </div>
- 
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 385-484-1010</p>
-              </div>
+        <!-- Punjabi Arts Academy -->
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon"><i class="icofont-paint"></i></div>
+          <h4 class="title"><a href="https://utahpunjabiarts.com/" target="_blank">Punjabi Arts Academy</a></h4>
+          <p class="description">
+            Website with secure payment processing and SQL database for attendee management
+          </p>
+        </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48604.69975944026!2d-111.90999496096377!3d40.41341998992127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7fedd81a1b69%3A0xfd6fac81600d61c9!2sLehi%2C%20UT!5e0!3m2!1sen!2sus!4v1685482894813!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Automated Email System -->
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon"><i class="icofont-email"></i></div>
+          <h4 class="title"><a href="https://github.com/rishabram" target="_blank">Automated Email System</a></h4>
+          <p class="description">
+            Python-based automated response system for university housing inquiries
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Journey Section -->
+  <section id="learning" class="learning section-bg">
+    <div class="container">
+      <div class="section-title">
+        <h2>JavaScript Learning Journey</h2>
+        <p>Daily progress in mastering JavaScript/TypeScript ecosystem</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="learning-container">
+            <div class="learning-item">
+              <div class="icon"><i class="icofont-code"></i></div>
+              <h4>JavaScript Fundamentals Mastery</h4>
+              <ul>
+                <li>Recreated all array methods from scratch with TypeScript typing</li>
+                <li>Solved 150+ LeetCode problems with detailed explanations</li>
+                <li>Built custom implementations of data structures (trees, graphs, heaps)</li>
+              </ul>
+              <a href="https://github.com/rishabram/js-fundamentals" target="_blank" class="btn btn-primary">View Code</a>
             </div>
 
-          </div>
+            <div class="learning-item">
+              <div class="icon"><i class="icofont-ui-weather"></i></div>
+              <h4>Weather App</h4>
+              <ul>
+                <li>IP-based location detection for personalized weather</li>
+                <li>React frontend with responsive design</li>
+                <li>Node.js backend with caching for API responses</li>
+              </ul>
+              <a href="https://github.com/rishabram/weather-app" target="_blank" class="btn btn-primary">View Project</a>
+            </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://formspree.io/f/xpzngkbl" method="post" role="form" class="php-email-form">
-            <!-- <input type="hidden" name="_captcha" value="False">
-            <input type="hidden" name="_template" value="table">
-            <input type="text" name="_honey" style="display:none"> -->
+            <div class="learning-item">
+              <div class="icon"><i class="icofont-note"></i></div>
+              <h4>Integrated Notes App</h4>
+              <ul>
+                <li>Full-stack note-taking application with React/TypeScript frontend</li>
+                <li>Node.js/Express backend with MongoDB</li>
+                <li>User authentication with JWT</li>
+              </ul>
+              <a href="https://github.com/rishabram/notes-app" target="_blank" class="btn btn-primary">View Project</a>
+            </div>
+
+            <div class="learning-item">
+              <div class="icon"><i class="icofont-tasks"></i></div>
+              <h4>Todo List with Node.js</h4>
+              <ul>
+                <li>Task management with drag-and-drop interface</li>
+                <li>Real-time updates with WebSockets</li>
+                <li>MongoDB backend with aggregation pipelines</li>
+              </ul>
+              <a href="https://github.com/rishabram/todo-app" target="_blank" class="btn btn-primary">View Project</a>
+            </div>
+
+            <div class="learning-progress">
+              <h4>Daily Coding Progress</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>Consistently pushing code to my <a href="https://github.com/rishabram" target="_blank">GitHub</a> with new projects and improvements</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Let's connect! Feel free to reach out for collaborations or opportunities.</p>
+      </div>
+
+      <div class="row" data-aos="fade-in">
+        <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="info">
+            <div class="address">
+              <i class="icofont-google-map"></i>
+              <h4>Location:</h4>
+              <p>Salt Lake City, Utah, United States</p>
+            </div>
+            <div class="email">
+              <i class="icofont-envelope"></i>
+              <h4>Email:</h4>
+              <p><a href="mailto:rish2750@gmail.com">rish2750@gmail.com</a></p>
+            </div>
+            <div class="phone">
+              <i class="icofont-phone"></i>
+              <h4>Call:</h4>
+              <p>+1 385-216-9968</p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193348.1390067807!2d-112.10148084999999!3d40.7596198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f5101c5d5f6d%3A0x5b0b2a749fb3e643!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1721250517997!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <form action="https://formspree.io/f/xpzngkbl" method="post" role="form" class="php-email-form">
             <div class="form-row">
               <div class="form-group col-md-6">
-              <label for="name">Your Name</label>
-              <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
-                data-msg="Please enter at least 4 characters" />
-              <div class="validate"></div>
+                <label for="name">Your Name</label>
+                <input type="text" name="name" class="form-control" id="name">
               </div>
               <div class="form-group col-md-6">
-              <label for="name">Your Email</label>
-              <input type="email" class="form-control" name="email" id="email" data-rule="email"
-                data-msg="Please enter a valid email" />
-              <div class="validate"></div>
+                <label for="email">Your Email</label>
+                <input type="email" class="form-control" name="email" id="email">
               </div>
             </div>
             <div class="form-group">
-              <label for="name">Subject</label>
-              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
-              data-msg="Please enter at least 8 chars of subject" />
-              <div class="validate"></div>
+              <label for="subject">Subject</label>
+              <input type="text" class="form-control" name="subject" id="subject">
             </div>
             <div class="form-group">
-              <label for="name">Message</label>
-              <textarea class="form-control" name="message" rows="4" data-rule="required"
-              data-msg="Please write something for me!"></textarea>
-              <div class="validate"></div>
+              <label for="message">Message</label>
+              <textarea class="form-control" name="message" rows="4" id="message"></textarea>
             </div>
-            <div class="mb-3">
-              <div class="loading">
-                <p><b>Submitting form</b> please wait...</p>
-              </div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+            <div class="text-center">
+              <button type="submit">Send Message</button>
             </div>
-             <!-- <center><div class="g-recaptcha" data-sitekey="6Le5xCUiAAAAAIaY5X_Abkbj7G0xnE4vK6vFmQzC"></div></center> -->
-            <br/>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
+          </form>
         </div>
-
       </div>
-    </section><!-- End Contact Section -->
-  
+    </div>
+  </section>
+</main>
 
-  </main><!-- End #main -->
+<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-  
-  <!--  Footer  -->
+<!-- Vendor JS Files -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="assets/vendor/counterup/counterup.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
 
-  <!-- End  Footer -->
-  
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
 </body>
-
 </html>
