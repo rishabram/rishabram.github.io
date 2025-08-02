@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rishab Ramalingam - Software Developer</title>
+  <title>Rishab Ramalingam - Software Engineer & Platform Developer</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -21,21 +21,29 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <script>
-    var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-    if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-    function mischandler(){
-      return false;
+  <style>
+    .leetcode-stats {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+      margin: 20px 0;
     }
-    function mousehandler(e){
-      var myevent = (isNS) ? e : event;
-      var eventbutton = (isNS) ? myevent.which : myevent.button;
-      if((eventbutton==2)||(eventbutton==3)) return false;
+    .project-highlight {
+      border-left: 4px solid #667eea;
+      padding-left: 20px;
+      margin: 15px 0;
     }
-    document.oncontextmenu = mischandler;
-    document.onmousedown = mousehandler;
-    document.onmouseup = mousehandler;
-  </script>
+    .skill-badge {
+      display: inline-block;
+      background: #f8f9fa;
+      border: 1px solid #dee2e6;
+      padding: 5px 12px;
+      margin: 3px;
+      border-radius: 15px;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 
 <body>
@@ -52,19 +60,19 @@
       <div class="social-links mt-3 text-center">
         <a href="https://www.linkedin.com/in/rishab-ramalingam-90282b16b/" target="_blank" title="LinkedIn" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/rishabram" target="_blank" title="GitHub" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://leetcode.com/rishabram" target="_blank" title="LeetCode" class="instagram"><i class="bx bx-code-alt"></i></a>
       </div>
     </div>
 
     <nav class="nav-menu">
       <ul>
         <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume"><i class="bx bx-file"></i> <span>Resume</span></a></li>
+        <li><a href="#resume"><i class="bx bx-file"></i> <span>Experience</span></a></li>
         <li><a href="#projects"><i class="bx bx-code-block"></i> Projects</a></li>
-        <li><a href="#learning"><i class="bx bx-brain"></i> Learning Journey</a></li>
+        <li><a href="#coding"><i class="bx bx-brain"></i> Daily Coding</a></li>
         <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
       </ul>
     </nav>
-    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
   </div>
 </header>
 
@@ -72,7 +80,7 @@
 <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
   <div class="hero-container" data-aos="fade-in">
     <center><h1>Rishab Ramalingam</h1></center>
-    <center><p>I am a <span class="typed" data-typed-items="Computer Science Student, Full-stack Developer, JavaScript Specialist"></span></p></center>
+    <center><p>I am a <span class="typed" data-typed-items="ServiceNow Platform Engineer, Full-stack Developer, CS Student, Daily LeetCoder"></span></p></center>
   </div>
 </section>
 
@@ -83,18 +91,38 @@
       <div class="section-title">
         <h2>About</h2>
         <div class="card-content">
-          <p>Hello! I'm Rishab Ramalingam, a Computer Science student at the University of Utah passionate about building impactful software solutions. I specialize in full-stack JavaScript development and constantly push my skills through daily coding challenges and projects.</p>
+          <p>Hello! I'm Rishab Ramalingam, a Computer Science student at the University of Utah specializing in enterprise platform development and full-stack engineering. Currently working as a ServiceNow Platform Engineering Intern, I architect automated workflows serving 45,000+ users while maintaining a daily coding practice to sharpen my problem-solving skills.</p>
 
-          <br><h2>Current Focus</h2>
-          <p>I'm currently interning at Ascent in Orem, Utah, where I work with React, TypeScript, Node.js, and MongoDB to develop enterprise solutions. I'm mastering modern JavaScript ecosystem tools and patterns.</p>
+          <div class="row mt-4">
+            <div class="col-lg-6">
+              <h4>🏢 Current Role</h4>
+              <p>ServiceNow Platform Engineering Intern at University of Utah IT Services, where I develop enterprise workflows using JavaScript, SQL, and REST APIs. I've reduced ticket resolution time by 35% through process automation.</p>
+            </div>
+            <div class="col-lg-6">
+              <h4>🎯 Daily Practice</h4>
+              <p>Committed to daily LeetCode practice and building projects to master data structures, algorithms, and modern development frameworks. Currently focusing on system design and scalable architecture patterns.</p>
+            </div>
+          </div>
 
-          <br><h2>Beyond Coding</h2>
-          <p>I'm deeply committed to sustainability initiatives, having co-founded Compost Utah. I also contribute to campus life as a Housing Ambassador at the University of Utah.</p>
+          <div class="mt-4">
+            <h4>🛠️ Technical Arsenal</h4>
+            <div class="skill-badges">
+              <span class="skill-badge">ServiceNow</span>
+              <span class="skill-badge">JavaScript/TypeScript</span>
+              <span class="skill-badge">React</span>
+              <span class="skill-badge">Node.js</span>
+              <span class="skill-badge">Python</span>
+              <span class="skill-badge">MongoDB</span>
+              <span class="skill-badge">SQL</span>
+              <span class="skill-badge">REST APIs</span>
+              <span class="skill-badge">Git/GitHub</span>
+              <span class="skill-badge">ITIL</span>
+              <span class="skill-badge">Workflow Automation</span>
+            </div>
+          </div>
 
-          <br>
-          <b>Technical Skills:</b> JavaScript • TypeScript • React • Node.js • MongoDB • Python • HTML/CSS
-          <br><br>
-          <b>Learning Daily:</b> Advanced TypeScript • Microservices • Performance Optimization • Cloud Architecture
+          <br><h4>🌱 Beyond Coding</h4>
+          <p>Co-founded Compost Utah, a 501(c)(3) non-profit promoting sustainability. Active in university housing as an ambassador, helping create better campus experiences.</p>
         </div>
       </div>
     </div>
@@ -109,41 +137,41 @@
       <div class="row skills-content">
         <div class="col-lg-6" data-aos="fade-up">
           <div class="progress">
-            <span class="skill">JavaScript/TypeScript <i class="val">70%</i></span>
+            <span class="skill">ServiceNow Platform Development <i class="val">85%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
           <div class="progress">
-            <span class="skill">React Ecosystem <i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Node.js & Express <i class="val">55%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="progress">
-            <span class="skill">MongoDB & Databases <i class="val">65%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Python & Data Analysis <i class="val">80%</i></span>
+            <span class="skill">JavaScript/TypeScript <i class="val">80%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
           <div class="progress">
-            <span class="skill">System Design <i class="val">75%</i></span>
+            <span class="skill">React & Frontend Development <i class="val">75%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="progress">
+            <span class="skill">Python & Data Analysis <i class="val">85%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Database Design & SQL <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">System Design & Architecture <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
         </div>
@@ -155,38 +183,40 @@
   <section id="resume" class="resume">
     <div class="container">
       <div class="section-title">
-        <h2>Experience</h2>
+        <h2>Professional Experience</h2>
         <div class="text-center">
           <form action="https://drive.google.com/file/d/1SSMWpPng0i0emh0ntNaxAelvigkHSo8_/view?usp=sharing" target="_blank">
-            <input style="color:rgb(255, 0, 0); font-size:20px;" type="submit" value="View My Resume"/>
+            <input style="color:rgb(255, 0, 0); font-size:20px;" type="submit" value="📄 Download My Resume"/>
           </form>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12" data-aos="fade-up">
-          <!-- Ascent Internship -->
+          <!-- ServiceNow Internship -->
           <div class="card">
             <div class="card-content">
               <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up">
                 <h4 style="text-align:left;">
-                  <a href="https://www.ascent.com/" target="_blank" style="color:#00380d">
-                    <b>Ascent</b>
+                  <a href="https://it.utah.edu/" target="_blank" style="color:#00380d">
+                    <b>University of Utah - IT Services</b>
                   </a>
                 </h4>
-                <h5 style="text-align:left;">Software Engineering Intern</h5>
+                <h5 style="text-align:left;">ServiceNow Platform Engineering Intern</h5>
                 <p style="text-align:left;color:rgb(255, 0, 0)">
-                  <em>Orem, Utah | Sept 2024 - Present</em>
+                  <em>Salt Lake City, UT | Jun 2025 - Present</em>
                 </p>
                 <ul style="text-align:left;">
-                  <li>Develop full-stack applications using React, TypeScript, Node.js, and MongoDB</li>
-                  <li>Helped with front-end infra converting CSS to tailwind</li>
-                  <li>Optimize MongoDB queries and indexing strategies, improving performance by 35%</li>
+                  <li>Architected enterprise <strong>ServiceNow workflows</strong> using JavaScript, AJAX, and SQL serving <strong>45,000+ university users</strong></li>
+                  <li>Reduced ticket resolution time by <strong>35%</strong> through automated process orchestration and business rule optimization</li>
+                  <li>Developed custom ServiceNow applications integrating with enterprise systems (Active Directory, Banner ERP)</li>
+                  <li>Implemented <strong>ITIL best practices</strong> resulting in 40% improvement in first-call resolution rates</li>
+                  <li>Streamlined user provisioning reducing manual tasks by <strong>60%</strong> through workflow automation</li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <!-- University of Utah -->
+          <!-- University of Utah Housing -->
           <div class="card">
             <div class="card-content">
               <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
@@ -197,12 +227,12 @@
                 </h4>
                 <h5 style="text-align:left;">Developer and Housing Ambassador</h5>
                 <p style="text-align:left;color:rgb(255, 0, 0)">
-                  <em>Salt Lake City, UT | July 2024 - Aug 2024</em>
+                  <em>Salt Lake City, UT | Jun 2024 - May 2025</em>
                 </p>
                 <ul style="text-align:left;">
-                  <li>Developed automated email response system using Python and web scraping</li>
-                  <li>Reduced repetitive inquiries by 40% and improved response time by 60%</li>
-                  <li>Built RESTful APIs to integrate FAQ data from HRE's website</li>
+                  <li>Developed automated email response system using <strong>Python</strong> and web scraping that reduced repetitive inquiries by <strong>40%</strong></li>
+                  <li>Built RESTful APIs to integrate FAQ data from HRE's website improving response accuracy by <strong>97%</strong></li>
+                  <li>Managed campus housing operations while coding solutions to improve student experience</li>
                 </ul>
               </div>
             </div>
@@ -217,13 +247,14 @@
                     <b>Compost Utah</b>
                   </a>
                 </h4>
-                <h5 style="text-align:left;">Cofounder and Developer</h5>
+                <h5 style="text-align:left;">Co-Founder and Lead Developer</h5>
                 <p style="text-align:left;color:rgb(255, 0, 0)">
                   <em>Midvale, UT | Jun 2022 - Aug 2023</em>
                 </p>
                 <ul style="text-align:left;">
-                  <li>Founded 501(c)(3) non-profit promoting composting in Wasatch Front communities</li>
-                  <li>Developed dynamic website using HTML, CSS, and JavaScript for event management</li>
+                  <li>Founded <strong>501(c)(3) non-profit</strong> promoting composting in Wasatch Front communities</li>
+                  <li>Developed dynamic website using HTML/CSS/JavaScript for volunteer management matching <strong>180+ K-12 students</strong></li>
+                  <li>Raised <strong>$6K in grants</strong> and managed 12 volunteers using Agile methodologies</li>
                 </ul>
               </div>
             </div>
@@ -246,21 +277,22 @@
               <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up">
                 <h4 style="text-align:left;">
                   <a href="https://www.utah.edu/" target="_blank" style="color:#00380d">
-                    <b>University of Utah</b>
+                    <b>University of Utah - College of Engineering</b>
                   </a>
                 </h4>
                 <h5 style="text-align:left;">Honors Bachelor of Science in Computer Science</h5>
                 <p style="text-align:left;color:rgb(255, 0, 0)">
-                  <em>2023 - 2027</em>
+                  <em>Aug 2023 - May 2027 | Salt Lake City, UT</em>
                 </p>
                 <p style="text-align:left;"><b>Relevant Coursework:</b></p>
                 <ul style="text-align:left;">
                   <li>Data Structures & Algorithms</li>
-                  <li>Web Development</li>
-                  <li>Database Systems</li>
-                  <li>Software Engineering</li>
+                  <li>Computer Organization</li>
+                  <li>Software Organization</li>
                   <li>Network Security</li>
+                  <li>Discrete Mathematics</li>
                 </ul>
+                <p style="text-align:left;"><b>Activities:</b> Management and Consulting Club</p>
               </div>
             </div>
           </div>
@@ -274,119 +306,145 @@
     <div class="container">
       <div class="section-title">
         <h2>Featured Projects</h2>
+        <p>Building practical solutions and tools that solve real-world problems</p>
       </div>
 
       <div class="row">
+        <!-- Resume Optimizer Tool -->
+        <div class="col-lg-4 col-md-6 icon-box project-highlight" data-aos="fade-up">
+          <div class="icon"><i class="icofont-robot"></i></div>
+          <h4 class="title"><a href="https://github.com/rishabram/resume-optimizer" target="_blank">🎯 AI Resume Optimizer</a></h4>
+          <p class="description">
+            <strong>🔥 Latest Project:</strong> Full-stack tool that analyzes job descriptions and automatically optimizes resumes using NLP and OpenAI API. Built with React, Flask, and Python.
+          </p>
+          <div class="tech-stack">
+            <small><em>React • Flask • OpenAI API • NLP • Python</em></small>
+          </div>
+        </div>
+
+        <!-- Cloud Cost Optimizer -->
+        <div class="col-lg-4 col-md-6 icon-box project-highlight" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon"><i class="icofont-cloud"></i></div>
+          <h4 class="title"><a href="https://github.com/rishabram/cloud-cost-optimizer" target="_blank">Cloud Cost Optimizer</a></h4>
+          <p class="description">
+            <strong>🚀 In Progress:</strong> Serverless FinOps platform using AWS Lambda and Step Functions. Analyzes cloud spending and provides cost-saving recommendations.
+          </p>
+          <div class="tech-stack">
+            <small><em>AWS Lambda • Terraform • Python • Cost Explorer API</em></small>
+          </div>
+        </div>
+
         <!-- FactFlow -->
-        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
           <div class="icon"><i class="icofont-newspaper"></i></div>
           <h4 class="title"><a href="https://github.com/rishabram/FakeNews" target="_blank">FactFlow</a></h4>
           <p class="description">
-            Machine learning pipeline using TF-IDF and PassiveAggressiveClassifier with Chrome extension integration
+            ML-powered Chrome extension using TF-IDF and PassiveAggressiveClassifier to detect news credibility with 88% F1 score.
           </p>
+          <div class="tech-stack">
+            <small><em>Python • Flask • Chrome Extension • NLP • ML</em></small>
+          </div>
         </div>
 
         <!-- My2KAssistant -->
-        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
           <div class="icon"><i class="icofont-sports-alt"></i></div>
           <h4 class="title"><a href="https://github.com/rishabram/fantasy-basketball-assistant" target="_blank">My2KAssistant</a></h4>
           <p class="description">
-            Full-stack sports analytics app with NBA API integration, SQLite database, and React interface
+            Full-stack sports analytics platform with React interface, NBA API integration, and real-time data processing.
           </p>
+          <div class="tech-stack">
+            <small><em>Python • Flask • React • SQLite • NBA API</em></small>
+          </div>
         </div>
 
         <!-- Spotify Analysis -->
-        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
           <div class="icon"><i class="icofont-music"></i></div>
           <h4 class="title"><a href="https://github.com/rishabram/Spotify-Analysis" target="_blank">Spotify Analysis</a></h4>
           <p class="description">
-            Data analysis pipeline in R with TidyVerse for Spotify track feature comparison
+            Data analysis pipeline in R with TidyVerse for Spotify track feature comparison. Visualized insights across genre patterns.
           </p>
+          <div class="tech-stack">
+            <small><em>R • TidyVerse • Data Visualization • Statistical Analysis</em></small>
+          </div>
         </div>
 
         <!-- Punjabi Arts Academy -->
-        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
           <div class="icon"><i class="icofont-paint"></i></div>
           <h4 class="title"><a href="https://utahpunjabiarts.com/" target="_blank">Punjabi Arts Academy</a></h4>
           <p class="description">
-            Website with secure payment processing and SQL database for attendee management
+            Dynamic website with Stripe payment integration and Node.js/Express backend for a cultural arts organization.
           </p>
-        </div>
-
-        <!-- Automated Email System -->
-        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-          <div class="icon"><i class="icofont-email"></i></div>
-          <h4 class="title"><a href="https://github.com/rishabram/HRE-Email-Automation" target="_blank">Automated Email System</a></h4>
-          <p class="description">
-            Python-based automated response system for university housing inquiries
-          </p>
+          <div class="tech-stack">
+            <small><em>HTML • CSS • JavaScript • Node.js • Express • Stripe API</em></small>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Learning Journey Section -->
-  <section id="learning" class="learning section-bg">
+  <!-- Daily Coding Section -->
+  <section id="coding" class="coding section-bg">
     <div class="container">
       <div class="section-title">
-        <h2>JavaScript Learning Journey</h2>
-        <p>Daily progress in mastering JavaScript/TypeScript ecosystem</p>
+        <h2>Daily Coding Journey</h2>
+        <p>Consistent practice to sharpen algorithms & data structures skills</p>
       </div>
 
       <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="learning-container">
-            <div class="learning-item">
-              <div class="icon"><i class="icofont-code"></i></div>
-              <h4>JavaScript Fundamentals Mastery</h4>
-              <ul>
-                <li>Recreated all array methods from scratch with TypeScript typing</li>
-                <li>Solved 40+ LeetCode problems with explanations</li>
-                <li>Built custom implementations of data structures (trees, graphs, heaps)</li>
-              </ul>
-              <a href="https://github.com/rishabram/JS-TS-React/tree/main" target="_blank" class="btn btn-primary">View Code</a>
-            </div>
-
-            <div class="learning-item">
-              <div class="icon"><i class="icofont-ui-weather"></i></div>
-              <h4>Weather App</h4>
-              <ul>
-                <li>IP-based location detection for personalized weather</li>
-                <li>React frontend with responsive design</li>
-                <li>Node.js backend with caching for API responses</li>
-              </ul>
-              <a href="https://github.com/rishabram/JS-TS-React/tree/main" target="_blank" class="btn btn-primary">View Project</a>
-            </div>
-
-            <div class="learning-item">
-              <div class="icon"><i class="icofont-note"></i></div>
-              <h4>Integrated Notes App</h4>
-              <ul>
-                <li>Full-stack note-taking application with React/TypeScript frontend</li>
-                <li>Node.js/Express backend with MongoDB</li>
-                <li>User authentication with JWT</li>
-              </ul>
-              <a href="https://github.com/rishabram/JS-TS-React/tree/main" target="_blank" class="btn btn-primary">View Project</a>
-            </div>
-
-            <div class="learning-item">
-              <div class="icon"><i class="icofont-tasks"></i></div>
-              <h4>Todo List with Node.js</h4>
-              <ul>
-                <li>Task management with drag-and-drop interface</li>
-                <li>Real-time updates with WebSockets</li>
-                <li>MongoDB backend with aggregation pipelines</li>
-              </ul>
-              <a href="https://github.com/rishabram/JS-TS-React/tree/main" target="_blank" class="btn btn-primary">View Project</a>
-            </div>
-
-            <div class="learning-progress">
-              <h4>Daily Coding Progress</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="col-lg-8 mx-auto" data-aos="fade-up">
+          <div class="leetcode-stats">
+            <h3 class="text-center mb-4">🧠 LeetCode Progress</h3>
+            <div class="row text-center">
+              <div class="col-md-4">
+                <h4>130+</h4>
+                <p>Problems Solved</p>
               </div>
-              <p>Consistently pushing code to my <a href="https://github.com/rishabram/JS-TS-React/tree/main" target="_blank">GitHub</a> with new projects and improvements</p>
+              <div class="col-md-4">
+                <h4>90 Day</h4>
+                <p>Current Streak</p>
+              </div>
+              <div class="col-md-4">
+                <h4>Top 10%</h4>
+                <p>Contest Rating</p>
+              </div>
             </div>
+            <div class="mt-4 text-center">
+              <a href="https://leetcode.com/rishabram" target="_blank" class="btn btn-light">View My LeetCode Profile</a>
+            </div>
+          </div>
+
+          <div class="card mt-4">
+            <div class="card-body">
+              <h4 class="card-title">💪 Coding Challenge Focus Areas</h4>
+              <div class="row mt-4">
+                <div class="col-md-6">
+                  <h5>Data Structures Mastery</h5>
+                  <ul>
+                    <li>Advanced graph algorithms</li>
+                    <li>Tree traversal techniques</li>
+                    <li>Dynamic programming patterns</li>
+                    <li>Heap & priority queue implementations</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <h5>System Design Practice</h5>
+                  <ul>
+                    <li>Microservice architecture</li>
+                    <li>Database sharding strategies</li>
+                    <li>Load balancer implementations</li>
+                    <li>Caching system designs</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="github-activity mt-4">
+            <h4>Recent GitHub Activity</h4>
+            <p>Pushing code daily with new projects and improvements to my <a href="https://github.com/rishabram" target="_blank">GitHub repositories</a>. Recent focus: building full-stack applications and automated workflow tools.</p>
           </div>
         </div>
       </div>
@@ -419,7 +477,7 @@
               <h4>Call:</h4>
               <p>+1 385-216-9968</p>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193348.1390067807!2d-112.10148084999999!3d40.7596198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f5101c5d5f6d%3A0x5b0b2a749fb3e643!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1721250517997!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193348.1390067807!2d-112.10148084999999!3d40.7596198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f5101c5d5f6d%3A0x5b0b2a749fb3e643!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1721250517997!5m2!1sen!2sus" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
 
@@ -428,20 +486,20 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="name">Your Name</label>
-                <input type="text" name="name" class="form-control" id="name">
+                <input type="text" name="name" class="form-control" id="name" required>
               </div>
               <div class="form-group col-md-6">
                 <label for="email">Your Email</label>
-                <input type="email" class="form-control" name="email" id="email">
+                <input type="email" class="form-control" name="email" id="email" required>
               </div>
             </div>
             <div class="form-group">
               <label for="subject">Subject</label>
-              <input type="text" class="form-control" name="subject" id="subject">
+              <input type="text" class="form-control" name="subject" id="subject" required>
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea class="form-control" name="message" rows="4" id="message"></textarea>
+              <textarea class="form-control" name="message" rows="4" id="message" required></textarea>
             </div>
             <div class="text-center">
               <button type="submit">Send Message</button>
